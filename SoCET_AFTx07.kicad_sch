@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5516d47b-e414-41cc-be39-f34e0b8598e1")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 53.34 53.34)
+		(size 91.44 55.88)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d63e48b3-75c3-4fa0-95d7-f9671e7c673c")
+		(property "Sheetname" "AFTx07"
+			(at 53.34 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AFTx07.kicad_sch"
+			(at 53.34 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SoCET_AFTx07"
+				(path "/5516d47b-e414-41cc-be39-f34e0b8598e1"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 214.63 110.49)
+		(size 62.23 46.99)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e18c031a-b64d-486e-9acb-88172102414f")
+		(property "Sheetname" "Power"
+			(at 214.63 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 214.63 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SoCET_AFTx07"
+				(path "/5516d47b-e414-41cc-be39-f34e0b8598e1"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
