@@ -5,46 +5,6 @@
 	(uuid "5516d47b-e414-41cc-be39-f34e0b8598e1")
 	(paper "A4")
 	(lib_symbols)
-	(wire
-		(pts
-			(xy 171.45 69.85) (xy 175.26 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "009305b5-f999-4db1-b40d-911eca0c0db6")
-	)
-	(wire
-		(pts
-			(xy 144.78 71.12) (xy 171.45 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8293f133-2261-4325-b582-40812834c50d")
-	)
-	(wire
-		(pts
-			(xy 171.45 71.12) (xy 171.45 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87733ea4-4e75-4de6-87cf-b6c078d151c1")
-	)
-	(wire
-		(pts
-			(xy 144.78 66.04) (xy 175.26 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2507610-43b3-4fc6-a046-68b40b3642cc")
-	)
 	(sheet
 		(at 175.26 33.02)
 		(size 83.82 53.34)
@@ -75,30 +35,108 @@
 				(justify left top)
 			)
 		)
-		(pin "LA01_P_CC" input
-			(at 175.26 66.04 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "782e6894-1b53-475c-9463-92c080965501")
-		)
-		(pin "LA01_N_CC" input
-			(at 175.26 69.85 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "3fca2a0e-6783-4ea9-97cc-b94e739abca0")
-		)
 		(instances
 			(project "SoCET_AFTx07"
 				(path "/5516d47b-e414-41cc-be39-f34e0b8598e1"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.45 130.81)
+		(size 82.55 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8cf1266b-f0c8-4bea-b6a6-3602ef8d967e")
+		(property "Sheetname" "Boot"
+			(at 44.45 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "boot.kicad_sch"
+			(at 44.45 177.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DAT2" input
+			(at 73.66 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "69fd9ce4-b585-4c02-98c9-62f1eec40ec7")
+		)
+		(pin "DAT3{slash}CD" input
+			(at 78.74 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a43e3cd1-109e-4d31-be2f-5eb93310f3d0")
+		)
+		(pin "DAT0" input
+			(at 85.09 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e52eabc4-0cd6-4b45-b307-3c4f531fe2f6")
+		)
+		(pin "CLK" input
+			(at 91.44 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ba16aca7-97ca-4408-bbb7-81d8d525593d")
+		)
+		(pin "DAT1" input
+			(at 96.52 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5ae2b21e-5971-432d-9cca-02f7a7f3e32e")
+		)
+		(pin "CMD" input
+			(at 101.6 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b0c72f67-fc68-460c-8db9-52a218cdc1f8")
+		)
+		(instances
+			(project "SoCET_AFTx07"
+				(path "/5516d47b-e414-41cc-be39-f34e0b8598e1"
+					(page "5")
 				)
 			)
 		)
@@ -132,26 +170,6 @@
 				)
 				(justify left top)
 			)
-		)
-		(pin "LA01_P_CC" input
-			(at 144.78 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b371f065-abbf-4277-91da-0d9d57406d87")
-		)
-		(pin "LA01_N_CC" input
-			(at 144.78 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "14467526-d99d-49a1-b99b-0cf1e78053b2")
 		)
 		(instances
 			(project "SoCET_AFTx07"
