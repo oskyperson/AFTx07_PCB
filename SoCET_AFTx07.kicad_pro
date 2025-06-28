@@ -371,6 +371,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -398,6 +406,14 @@
     [
       "5bc8d1db-126a-4749-b01b-36c09bbd5609",
       "FMC LPC"
+    ],
+    [
+      "c1572ada-486c-48b1-b220-bdb459cea861",
+      "Boot"
+    ],
+    [
+      "93f02ffd-6352-4710-b2a2-1609ab20707d",
+      "power seq"
     ]
   ],
   "text_variables": {}
