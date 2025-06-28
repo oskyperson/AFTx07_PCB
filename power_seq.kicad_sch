@@ -1140,7 +1140,7 @@
 		)
 		(instances
 			(project ""
-				(path "/5516d47b-e414-41cc-be39-f34e0b8598e1/93f02ffd-6352-4710-b2a2-1609ab20707d"
+				(path "/5516d47b-e414-41cc-be39-f34e0b8598e1/823066d8-0b13-48d1-a74c-dc5a7a95940e"
 					(reference "#PWR033")
 					(unit 1)
 				)
@@ -1345,7 +1345,7 @@
 		)
 		(instances
 			(project ""
-				(path "/5516d47b-e414-41cc-be39-f34e0b8598e1/93f02ffd-6352-4710-b2a2-1609ab20707d"
+				(path "/5516d47b-e414-41cc-be39-f34e0b8598e1/823066d8-0b13-48d1-a74c-dc5a7a95940e"
 					(reference "U?")
 					(unit 1)
 				)
